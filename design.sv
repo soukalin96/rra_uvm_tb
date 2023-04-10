@@ -1,5 +1,4 @@
-// Code your design here
-// Code your design here
+
 module rrarbiter (clk,rstn, req0, req1, req2, req3, gnt0, gnt1,gnt2, gnt3,eot0,eot1,eot2, eot3);
 
 

@@ -18,7 +18,7 @@ class gen_arb_item extends uvm_sequence;
         `uvm_info("Seq",$sformatf(" Time=%0t Packet=%0d Generate new item:",$time,(i+1)),UVM_LOW)
         m_item.print();
         send_request(m_item);
-    wait_for_item_done();
+        wait_for_item_done();
         //finish_item(m_item);
       end
     `uvm_info("Seq",$sformatf(" Done Generation of %0d",num),UVM_LOW)

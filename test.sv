@@ -36,11 +36,7 @@ class test extends uvm_test;
     vif.rstn<=1;
     @(posedge vif.clk);
   endtask
-  
-  
- 
-    
-    
+
 endclass
   
        
