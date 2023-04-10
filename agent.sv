@@ -27,7 +27,5 @@ class agent extends uvm_agent;
     d0.seq_item_port.connect(s0.seq_item_export);
   endfunction
   
-  
-  
 endclass
     
